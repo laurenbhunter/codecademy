@@ -1,0 +1,111 @@
+html, body {
+  display: block;
+  margin: 8px;
+ }
+
+
+
+ nav {
+  margin: 0;
+  padding: 20px 0;
+ }
+
+ nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 80px;
+ }
+
+ main {
+  text-align: center;
+  position: relative;
+  top: 90px;
+ }
+
+ main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+ }
+
+ footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+ }
+
+ footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+ }
+
+ .container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+ }
+
+ .jumbotron {
+  height: 800px;
+  background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ h1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+  text-align: center;
+  font-size: 100px;
+  color: khaki;
+}
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+   h1, h2, h3, p {
+    font-family: "Helvetica", sans-serif;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+#frame {
+  background-color: lightcoral;
+}
+
+.item h2 {
+  font-size: 32px;
+  color: white;
+}
